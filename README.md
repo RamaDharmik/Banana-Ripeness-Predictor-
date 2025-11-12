@@ -32,6 +32,11 @@ Built using **TensorFlow, Keras, OpenCV, and FastAPI**, it features an **end-to-
 - **Optimization:** Adam optimizer with early stopping and learning rate scheduling  
 
 ---
+## Model Weights 
+
+The trained CNN model for banana ripeness and shelf life prediction is stored externally due to GitHub’s file size limit.
+You can download it from Google Drive https://drive.google.com/file/d/1Um9r6cnV1pFTWq57Kx8UoMsWdbqbRPiD/view?usp=sharing
+ and place it in the model/ directory before running the app.
 
 ## ⚙️ Installation & Setup
 
@@ -51,8 +56,4 @@ pip install -r requirements.txt
 # 4️⃣ Run FastAPI app locally
 uvicorn app:app --reload
 
-**## Model Weights**
 
-The trained CNN model for banana ripeness and shelf life prediction is stored externally due to GitHub’s file size limit.
-You can download it from Google Drive
- and place it in the model/ directory before running the app.
