@@ -50,3 +50,9 @@ pip install -r requirements.txt
 
 # 4️⃣ Run FastAPI app locally
 uvicorn app:app --reload
+
+**## Model Weights**
+
+The trained CNN model for banana ripeness and shelf life prediction is stored externally due to GitHub’s file size limit.
+You can download it from Google Drive
+ and place it in the model/ directory before running the app.
